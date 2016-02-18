@@ -1,0 +1,10 @@
+{
+	"name" : "JS Test",
+	"version" : "0.1",
+	"manifest_version": 2,
+	"description": "Learn JavaScript!",
+	"permissions": ["management", "storage", "tabs"],
+	"chrome_url_overrides" : {
+		"newtab" : "newtab.html"
+	}
+}
