@@ -8,15 +8,19 @@ body{
 }
 
 .navbar {
-	font-family: 'Lobster', cursive;
-	font-size: 45px;
-	color: black;
-	text-shadow: 0px 0px 15px #FFFFFF;
 	text-align: center;
 }
 
+.logo{
+	width: 25%;
+}
+
+.topRow {
+	margin-top: 50px;
+}
+
 .contentHeaders {
-	font-family: 'Lobster', cursive;
+	font-family: 'Georgia', serif;
 	color: black;
 	font-size: 25px;
 	text-shadow: 0px 0px 15px #FFFFFF;
@@ -84,6 +88,13 @@ input {
 	width: 430px;
 	margin: auto;
 }	
+
+.modal-header {
+	background-color: black;
+	color: white;
+	font-family: 'Georgia', serif;
+}
+
 
 /*
 .translucentDivTop {

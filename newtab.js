@@ -128,11 +128,6 @@ angular.module('termApp', [
         $scope.setRandomSATword();
       }
 
-      //bullshit remove
-      $scope.pleasework = function(){
-        return true;
-      }
-
     //MODALS -- FUNCTIONS AND VARIABLES THAT PERTAIN TO MODALS
 
       $scope.open = function (size) {
@@ -140,6 +135,7 @@ angular.module('termApp', [
         var modalInstance = $uibModal.open({
           animation: $scope.animationsEnabled,
           templateUrl: 'modalTemplate.html',
+          controller: 'appController',
           size: size
         });
 
@@ -153,6 +149,5 @@ angular.module('termApp', [
 
     //RUN INIT
       $scope.init();
-      
 
     });
