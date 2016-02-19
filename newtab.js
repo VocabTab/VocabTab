@@ -107,9 +107,6 @@ angular.module('termApp', [
         };
       }
 
-      //boolean that determines whether to show the button that adds wordLookedup to the user's term list
-      //create later
-
     //HELPER FUNCTIONS
 
       //saveLocal saves the $scope.termList to the user's local storage; this is called in delete, addSATword and maybe other places;
@@ -128,7 +125,7 @@ angular.module('termApp', [
         $scope.setRandomSATword();
       }
 
-    //MODALS -- FUNCTIONS AND VARIABLES THAT PERTAIN TO MODALS
+    //MODAL
 
       $scope.open = function (size) {
 

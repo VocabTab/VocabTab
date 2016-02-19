@@ -2,9 +2,8 @@
   <html lang="en" ng-app="termApp" ng-csp>
   <head>
     <meta charset="UTF-8">
-    <title>Example - example-example79-production</title>
+    <title>VocabTab</title>
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
-    <link href='https://fonts.googleapis.com/css?amily=Lobster' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="tab.css">
     <link rel="stylesheet" type="text/css" href="angular-csp.css">
     <script src="bower_components/angular/angular.js"></script>
@@ -12,15 +11,15 @@
     <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
     <script src="newtab.js"></script>
     <script src="5000SATwords.js"></script>
-    
   </head>
+
   <body ng-controller = "appController">
 
-    <nav class="navbar"><img src="VocabTab.png" class="logo"></nav>
+    <nav class="navbar">
+      <img src="VocabTab.png" class="logo">
+    </nav>
 
     <div class="container">
-
-    
       <div class="row topRow">
         <div class="col-md-6">
           <div class="contentDivs">
@@ -69,10 +68,6 @@
           </div>
         </div>
       </div>
-     
-     <!--// <p ng-repeat="(term, value) in item">{{value}}</p>-->
-
-
     </div>
 
     <script type="text/ng-template" id="modalTemplate.html">
@@ -90,4 +85,5 @@
     </script>
 
   </body>
+
   </html>
